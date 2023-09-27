@@ -69,8 +69,8 @@ const dayArray = [
   "Sat",
   
 ];
-
-dayOfWeek.innerText = dayArray[day - 1];
+console.log(dayArray[day])
+dayOfWeek.innerText = dayArray[day];
 
 dateInner.innerText = date_child;
 monthInner.innerText = months + "-" + year;
