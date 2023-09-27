@@ -297,24 +297,24 @@ padding-top:20px;
         transform: translateY(30px);
     }
 }
-.fa-html5,.fa-css3-alt,.fa-js-square{
+.fa-figma,.fa-react,.fa-node-js{
     font-size:60px;
     border-radius: 5px;
     padding: 5px;
     min-width: 50px;
 }
-.fa-html5{
+.fa-figma{
     color: #f57e39;
     box-shadow: 0px 0px 40px 0px rgba(236, 153, 27, 0.8);
     border: 2px solid #f57e39;
 }
-.fa-css3-alt{
+.fa-react{
     color: #4678F5;
     box-shadow: 0px 0px 40px 0px rgba(16, 179, 255, 0.8);
     border: 2px solid #4678F5;
 
 }
-.fa-js-square{
+.fa-node-js{
     color: #E0EE03 ;
     box-shadow: 0px 0px 40px 0px rgba(236, 252, 15, 0.8);
     border: 2px solid #E0EE03;

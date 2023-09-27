@@ -60,16 +60,17 @@ var date_child = date.getDate();
 var months = date.getMonth() + 1;
 var year = date.getFullYear();
 const dayArray = [
+  "Sun",
   "MonDay",
   "TueDay",
   "WedDay",
   "ThuDay",
   "FriDay",
   "Sat",
-  "Sun",
+  
 ];
-
-dayOfWeek.innerText = dayArray[day - 1];
+console.log(dayArray[day])
+dayOfWeek.innerText = dayArray[day];
 
 dateInner.innerText = date_child;
 monthInner.innerText = months + "-" + year;
